@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -panm --group-directories-first --indicator-style=slash
+ls -pam

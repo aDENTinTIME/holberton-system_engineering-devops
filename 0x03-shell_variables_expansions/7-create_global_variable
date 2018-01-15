@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo export BETTY="Holberton"
+sudo export HOLBERTON="Betty"

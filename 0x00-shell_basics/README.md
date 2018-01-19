@@ -6,8 +6,7 @@
 #!/bin/bash
 pwd
 ```
->---
->---
+>>---
 1. What’s in there? [1-listit](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/1-listit)  
    Display the contents list of your current directory.
 ```bash

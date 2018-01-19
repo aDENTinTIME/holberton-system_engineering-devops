@@ -1,7 +1,6 @@
 # Holberton System-Engineering Devops / 0x00-shell_basics
 
-0. Where am I? [0-current_working_directory](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
-
+0. Where am I? [0-current_working_directory](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)<br />
    Write a script that prints the absolute path name of the current working directory.
 ```bash
 #!/bin/bash

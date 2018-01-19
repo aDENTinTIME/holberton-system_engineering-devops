@@ -44,21 +44,21 @@ ls -la
 #!/bin/bash
 ls -lan
 ```
->>>>>---
+>>---
 6. Welcome holberton [6-firstdirectory](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/6-firstdirectory)  
    Create a script that creates a directory named `holberton` in the `/tmp/` directory.
 ```bash
 #!/bin/bash
 mkdir /tmp/holberton/
 ```
->>>---
+>>---
 7. Betty in Holberton [7-movethatfile](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/7-movethatfile)  
    Move the file `betty` from `/tmp/` to `/tmp/holberton`.
 ```bash
 #!/bin/bash
 mv /tmp/betty /tmp/holberton/
 ```
->>>---
+>>---
 8. Bye bye Betty [8-firstdelete](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/8-firstdelete)  
    Delete the file betty.  
    • The file `betty` is in `/tmp/holberton`
@@ -66,15 +66,14 @@ mv /tmp/betty /tmp/holberton/
 #!/bin/bash
 rm /tmp/holberton/betty
 ```
->>>---
-9. Bye bye Holberton [9-firstdirdeletion](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion)
-
+>>---
+9. Bye bye Holberton [9-firstdirdeletion](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion)  
    Delete the directory `holberton` that is in the `/tmp` directory.
 ```bash
 #!/bin/bash
 rmdir /tmp/holberton/
 ```
-
+>>---
 XXXXXXXX []()
 
    XXXXXXXXXX

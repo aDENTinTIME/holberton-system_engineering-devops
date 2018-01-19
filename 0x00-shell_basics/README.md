@@ -6,35 +6,36 @@
 #!/bin/bash
 pwd
 ```
->>>>>---
+>>>---
+>>>---
 1. What’s in there? [1-listit](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/1-listit)  
    Display the contents list of your current directory.
 ```bash
 #!/bin/bash
 ls
 ```
->>>>>---
+>>---
 2. There is no place like home [2-bring_me_home](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/2-bring_me_home)  
    Write a script that changes the working directory to the user’s home directory.
 ```bash
 #!/bin/bash
 cd
 ```
->>>>>---
+>>---
 3. The long format [3-listfiles](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/3-listfiles)  
    Display current directory contents in a long format
 ```bash
 #!/bin/bash
 ls -l
 ```
->>>>>---
+>>---
 4. Hidden files [4-listmorefiles](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/4-listmorefiles)  
    Display current directory contents, including hidden files (starting with .). Use the long format.
 ```bash
 #!/bin/bash
 ls -la
 ```
->>>>>---
+>>---
 5. I love numbers [5-listfilesdigitonly](https://github.com/aDENTinTIME/holberton-system_engineering-devops/blob/master/0x00-shell_basics/5-listfilesdigitonly)  
    Display current directory contents.  
    • Long format  

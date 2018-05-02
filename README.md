@@ -2,7 +2,7 @@
   Basically Bash
   <br>
   <br>
-  <img width="200px" src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg">
+  <img width="200px" src="https://i.imgur.com/EbLsO20.png">
 </h2>
 
 ### Holberton School - System engineering & DevOps

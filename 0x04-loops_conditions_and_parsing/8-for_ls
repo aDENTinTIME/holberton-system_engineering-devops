@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #Displays the content of the CWD, in a list, every name starts after "-".
 
-for a in `ls`; do
-	echo $a | cut -d - -f 2
+list=$(ls)
+
+for a in $list; do
+	echo "$a" | cut -d - -f 2
 done

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Displays the content of the CWD, in a list, every name starts after "-".
+#Displays the contents of the CWD, in a list, every name starts after "-".
 
 list=$(ls)
 

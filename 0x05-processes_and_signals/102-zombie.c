@@ -5,13 +5,12 @@
 
 int main(void)
 {
-	int i = 2;
+	int i = 3;
 
 	while (i--)
 	{
-		fork();
-		printf("Zombie process created, PID: %d\n", getpid());
-		sleep(1);
+		if (fork() == 0)
+			printf("Zombie process created, PID: %d\n", getpid());
 	}
 	return (0);
 }

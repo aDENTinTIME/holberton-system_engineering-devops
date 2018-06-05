@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Terminates the latest running process, without using 'kill'.
+
+pkill -n "bash"

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Terminates a process resistant to SIGTERM
+
+pkill -SIGKILL -n "bash"

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Displays 'To infinity and beyond' indefinitely, and 'Y U no love me?!'
 
-echo "$$" > /var/run/holbertonscript.pid
+sudo echo "$$" > /var/run/holbertonscript.pid
 
 while true; do
 	trap "echo 'I hate the kill command'" SIGTERM
@@ -11,4 +11,4 @@ while true; do
 	sleep 2
 done
 
-rm /var/run/holbertonscript.pid
+sudo rm /var/run/holbertonscript.pid

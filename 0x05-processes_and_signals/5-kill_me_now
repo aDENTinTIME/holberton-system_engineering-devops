@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 #Terminates the latest running process.
 
-kek="$(pgrep -n bash)"
-kill $kek
+kill "$(pgrep -n 'bash')"

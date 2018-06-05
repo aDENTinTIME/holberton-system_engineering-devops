@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Displays 'To infinity and beyond' indefinitely, and 'I am invincible!!!'.
+#Displays 'To infinity and beyond' indefinitely, and 'Y U no love me?!'
 
 echo "$$" > /var/run/holbertonscript.pid
 

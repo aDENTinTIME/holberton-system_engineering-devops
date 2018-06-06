@@ -4,7 +4,7 @@
 echo "$$" > /var/run/holbertonscript.pid
 
 while true; do
-	trap "echo 'I hate the kill command'" SIGTERM
+	trap "echo 'I hate the kill command'; break" SIGTERM
 	trap "echo 'Y U no love me?!'; break" SIGINT
 	trap break SIGQUIT
 	echo "To infinity and beyond"

@@ -18,6 +18,7 @@ defaults
 listen 353-lb-01
 \tmode http
 \tbind *:80
+\toption forwardfor
 \tbalance roundrobin
 \tserver 353-web-01 35.237.8.124:80 check
 \tserver 353-web-02 35.185.27.231:80 check" | sudo tee /etc/haproxy/haproxy.cfg > /dev/null

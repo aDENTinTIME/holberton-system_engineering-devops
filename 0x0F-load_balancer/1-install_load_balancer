@@ -5,5 +5,20 @@ sudo apt-get update
 sudo apt-get -y install haproxy
 sudo sed -i "s/^\(ENABLED=\).*$/\11/g" /etc/default/haproxy
 sudo mv /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg_og
-echo -e "global\n\tuser haproxy\n\tgroup haproxy\n\ndefaults\n\ttimeout connect 5000\n\ttimeout client 10000\n\ttimeout server 10000\n\nlisten appname 0.0.0.0:80\n\tbalance roundrobin\n\tserver 353-web-01 35.237.8.124:80 check\n\tserver 353-web-02 35.185.27.231:80 check" | sudo tee /etc/haproxy/haproxy.cfg > /dev/null
+echo -e "global
+\tuser haproxy
+\tgroup haproxy
+
+defaults
+\tmode http
+\ttimeout connect 5000
+\ttimeout client 10000
+\ttimeout server 10000
+
+listen 353-lb-01
+\tmode http
+\tbind *:80
+\tbalance roundrobin
+\tserver 353-web-01 35.237.8.124:80 check
+\tserver 353-web-02 35.185.27.231:80 check" | sudo tee /etc/haproxy/haproxy.cfg > /dev/null
 sudo service haproxy restart

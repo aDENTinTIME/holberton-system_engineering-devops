@@ -1,0 +1,17 @@
+global
+	user haproxy
+	group haproxy
+
+defaults
+	mode http
+	timeout connect 5000
+	timeout client 10000
+	timeout server 10000
+
+listen 353-lb-01
+	mode http
+	bind *:80
+	option forwardfor
+	balance roundrobin
+	server 353-web-01 35.237.8.124:80 check
+	server 353-web-02 35.185.27.231:80 check

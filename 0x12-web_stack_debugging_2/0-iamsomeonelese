@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 # Changes user and varifies change
-if [ $# -eq 1 ]; then
-	sudo su "$1" -c "whoami"
-fi
+sudo -u "$1" whoami

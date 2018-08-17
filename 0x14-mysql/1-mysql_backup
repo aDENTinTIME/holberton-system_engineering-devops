@@ -3,4 +3,10 @@
 
 PASS="$1"
 
-mysqldump -p$PASS
+if [ -z $PASS ]; then
+	sudo mysqldump -uroot --all-databases --events > backup.sql
+else
+	sudo mysqldump -uroot -p"$PASS" --all-databases --events > backup.sql
+fi
+
+tar cfz $(date +%d-%m-%y).tar.gz backup.sql

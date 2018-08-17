@@ -3,4 +3,4 @@
 
 PASS="$1"
 
-mysqldump -C -p$PASS holberton 
+mysqldump -p$PASS
